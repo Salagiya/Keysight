@@ -21,7 +21,7 @@ Language: Java
 
  This framework contains sample code containing:
 
-• 1 feature (feature file) • 2 Scenarios • Login functionality • Use this link to get the dependencies - https://mvnrepository.com/
+• 1 feature (feature file) • 1 Scenario • Products and services functionality • Use given link to get the dependencies - https://mvnrepository.com/
 
 Add below dependencies in pom.xml file
 
