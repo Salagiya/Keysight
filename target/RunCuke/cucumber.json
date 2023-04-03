@@ -1,0 +1,110 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# It consists of functional test cases in the form of cucumber feature files written in gherkin format"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11199650300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify user is able to check all products and services",
+        "description": "",
+        "id": "products-and-services-functionality;verify-user-is-able-to-check-all-products-and-services",
+        "after": [
+          {
+            "result": {
+              "duration": 756535200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 176143800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on Home page of Keysight site",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomePageOfKeysightSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 601298100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Products and Services from top tab menu",
+            "match": {
+              "location": "MyStepdefs.iClickOnProductsAndServicesFromTopTabMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1155921000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I mousehoover on software tab",
+            "match": {
+              "location": "MyStepdefs.iMousehooverOnSoftwareTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2647437500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Test automation software",
+            "match": {
+              "location": "MyStepdefs.iClickOnTestAutomationSoftware()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2041058200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify \u0027Optimize Test Plans and Increase Test Efficiency\u0027 text",
+            "match": {
+              "location": "MyStepdefs.iVerifyOptimizeTestPlansAndIncreaseTestEfficiencyText()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Products and services functionality",
+    "description": "As a user I would like to know what products and services Keysight is providing",
+    "id": "products-and-services-functionality",
+    "keyword": "Feature",
+    "uri": "products.feature"
+  }
+]
